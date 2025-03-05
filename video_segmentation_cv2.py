@@ -228,4 +228,4 @@ if __name__ == "__main__":
     output_video = "output/segmented_video_cv2.mp4"
     
     # Process only the first 100 frames (approximately 10 seconds at original FPS)
-    process_video(input_video, output_video, target_fps=15, max_frames=600) 
+    process_video(input_video, output_video, target_fps=15, max_frames=150) 
